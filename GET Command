@@ -1,0 +1,14 @@
+curl -i -X POST \
+   -H "Content-Type:application/json" \
+   -d \
+'{
+    "token": "90932704|-31949276647704815|90954696",
+    "cmd": "GET",
+    "dbName": "Details",
+    "rel": "Details-Rel",
+    "jsonStr":{
+        "name": "Sulbha Mishra"
+    }
+}
+' \
+ 'http://api.login2explore.com:5577/api/irl'
